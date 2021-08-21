@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.h111{
+  color: #282829;
+}
+
+.title11 h1{
+  padding-top: 90px;
+  font-weight: 800;
+  color: #fbad18;
+  font-size: 30px;
+  /* display: none; */
+}
+.title2 h1{
+    margin-right: 450px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.title2 .white{
+    color: white;
+}
+.first{
+  padding-top: 30px;
+}
+.first h1{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #fbad18;
+}
+.faqs-container{
+  overflow: hidden;
+}
+.faq-singular {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding: 0 30px 0 20px;
+}
+
+.faq-singular .faq-question {
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+  padding: 25px 25px 25px 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.faq-singular .faq-question:before {
+  position: absolute;
+  content: "+";
+  color: #808080;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+  font-weight: 700;
+  transition: all .5s;
+}
+.faq-singular.active .faq-question:before {
+  transform: translateY(-50%) rotate(45deg) scale(1.3);
+}
+.faq-answer {
+  display: none;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 500px){
+.title2 h1{
+  display: none;
+}
+ 
+ .logo img{
+    padding-right: 50px;
+    padding-bottom: 0px;
+    /* display: none; */
+  }
+  .title11 h1{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+}
+.first{
+  margin-top: -10px;
+ 
+}
+.first h1{
+  font-size: 24px;
+   color: #fbad18;
+}
+}

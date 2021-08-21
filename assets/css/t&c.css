@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+
+body{
+    background-image: url(/Image/Backgroundmobile.jpg);
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .title1 h1{
+      padding-top: 80px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fbad18;
+        font-size: 26px;
+  }
+  .us {
+      color: #282829;
+}
+.title1 p{
+    text-align:justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+}
+  .title2 h1{
+      padding-top: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #fbad18;
+        font-size: 24px;
+  }
+  .us {
+      color: #282829;
+}
+.title2 p{
+    text-align:justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: #fbad18;
+    color:#282829;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.6s;
+    z-index: 10000;
+  
+   
+  }
+ 
+.logo img {
+    padding-top: 10px;
+    margin: 6px;
+    font-size: 40px;
+    cursor: pointer;
+    width: 70%;
+  }
+  
+  @media (max-width: 768px) {
+  
+    .logo img{
+      padding-top: 5px;
+      padding-left: 20px;
+      width: 90%;
+    }
+    .title1 h1{
+        margin-top: -10px;
+        font-size: 24px;
+    }
+    .title1 p{
+        font-size: 18px;
+    }
+    
+  }
+  
+  
